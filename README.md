@@ -8,3 +8,7 @@ Ubuntu 20.04 example
 openssl_3.4.3-1_amd64.deb inpack data.tar.xz inpack data.tar.xz next /usr/local/lib 
 
 sudo cp -r libcrypto.so libcrypto.so.1.1 libssl.so libssl.so.1.1 /usr/lib/x86_64-linux-gnu
+
+next /usr/local/ssl 
+
+sudo rm -rf /usr/lib/ssl/* && sudo cp -r misc ct_log_list.cnf ct_log_list.cnf.dist openssl.cnf.dist /usr/lib/ssl
