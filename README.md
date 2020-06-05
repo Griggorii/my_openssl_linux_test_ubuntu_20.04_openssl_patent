@@ -12,3 +12,5 @@ sudo cp -r libcrypto.so libcrypto.so.1.1 libssl.so libssl.so.1.1 /usr/lib/x86_64
 next /usr/local/ssl 
 
 sudo rm -rf /usr/lib/ssl/* && sudo cp -r misc ct_log_list.cnf ct_log_list.cnf.dist openssl.cnf.dist /usr/lib/ssl
+
+Есть дистрибутив который еще пока может собрать openssl и qt4.8.7 взять и распаковать deb->data.tar.xz можно тут https://github.com/Griggorii/qt_4.8-1_amd64.deb этот дистрибутив является фактически золотой жилой за счет того что другие не могут и находится на стадии заморозки крупные компании могут обратиться по покупке на griggorii@gmail.com
